@@ -1,18 +1,6 @@
-Hello, My Friends  
-Thank you for having interest in this repository ! 
+React, NodeJS Shopping mall web
 
-To use this application, 
-
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
-
-
-If you have problem, feel free to ask me ^^ 
-
-You can watch the tutorial for this app.
-
-https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
+1.
+2.리덕스 적용 - https://velog.io/@choidy180/React-Blog-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%A0%81%EC%9A%A9
 
 
