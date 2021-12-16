@@ -43,7 +43,7 @@ function UploadProductPage(props) {
     }
 
     const submitHandler = (event) => {
-        event.preventDefault();
+        event.preventDefault(); //not refresh when event start
 
         if (!Title || !Description || !Price || !Continent || Images.length === 0) {
             return alert(" 모든 값을 넣어주셔야 합니다.")
@@ -66,7 +66,7 @@ function UploadProductPage(props) {
             .then(response => {
                 if (response.data.success) {
                     alert('상품 업로드에 성공 했습니다.')
-                    props.history.push('/')
+                    props.history.push('/') //return to main
                 } else {
                     alert('상품 업로드에 실패 했습니다.')
                 }
