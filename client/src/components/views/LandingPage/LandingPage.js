@@ -26,7 +26,7 @@ function LandingPage() {
 
         const variables = {
             skip: Skip,
-            limit: Limit,
+            limit: Limit,  //one page view contents
         }
 
         getProducts(variables)
